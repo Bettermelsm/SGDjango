@@ -12,7 +12,8 @@ Open-source **[Django Template](https://www.creative-tim.com/templates/django)**
 
 - Simple, Easy-to-Extend codebase
 - Soft UI Dashboard 
-- Bootstrap CSS Styling 
+- *Bootstrap CSS Styling* [new point]
+- Run this app in cloud server
 - Dynamic Tables - read [docs](https://app-generator.dev/docs/developer-tools/dynamic-datatables.html)
 - Dynamic API - read [docs](https://app-generator.dev/docs/developer-tools/dynamic-api.html)
 - Charts
@@ -99,9 +100,12 @@ $ python manage.py createsuperuser
 
 ```bash
 $ python manage.py runserver
+$ python manage.py check
+$ python manage.py runserver 0.0.0.0:80
+$ nohup python manage.py runserver 0.0.0.0:80 > django.log 2>&1 &
 ```
 
-At this point, the app runs at `http://127.0.0.1:8000/`. 
+At this point, the app runs at `http://ur ECS IP:80/`. 
 
 <br />
 
