@@ -1,0 +1,62 @@
+{% extends 'website/index.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/website.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<section class="page-header blue-bg">
+  <h1>{% trans "产品中心" %}</h1>
+  <p>{% trans "科研仪器 · 实验耗材 · 模型资源库" %}</p>
+</section>
+
+<section class="section-container">
+  <h2>{% trans "热门产品" %}</h2>
+  <div class="product-grid">
+    <div class="product-card">
+      <div class="product-image">
+        <img src="{% static 'images/an_roomrat.jpg' %}" alt="Animal Procurement">
+      </div>
+      <div class="product-body">
+        <h3>{% trans "实验动物核销代购" %}</h3>
+        <p>{% trans "提供实验动物统一核销及代购服务，覆盖珠海百试通、北京维通利华、广东药康等多家合规供应商，支持多品种、多品系小鼠与大鼠，满足不同课题组的实验动物需求。" %}</p>
+        <p class="product-tag">{% trans "动物资源 · 合规代购" %}</p>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="{% static 'images/an_behav.jpg' %}" alt="Behavior System">
+      </div>
+      <div class="product-body">
+        <h3>{% trans "动物行为学检测系统" %}</h3>
+        <p>{% trans "适用于小鼠 / 大鼠的旷场实验、水迷宫、行为标定及记忆行为检测，支持多通道自动化采集与分析，提高行为学数据的客观性与可重复性。" %}</p>
+        <p class="product-tag">{% trans "行为学平台 · 软硬件支持" %}</p>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="{% static 'images/an_ivc.jpg' %}" alt="IVC System">
+      </div>
+      <div class="product-body">
+        <h3>{% trans "IVC 动物饲养系统" %}</h3>
+        <p>{% trans "提供高标准屏障级 IVC 笼具及配套通风过滤系统，适合长期动物实验与清洁度要求较高的项目，支持小规模试验至规模化饲养的不同场景。" %}</p>
+        <p class="product-tag">{% trans "SPF 饲养 · 环境控制" %}</p>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="{% static 'images/SGkits.jpg' %}" alt="Reagent Kits">
+      </div>
+      <div class="product-body">
+        <h3>{% trans "动物实验及测序相关试剂盒" %}</h3>
+        <p>{% trans "自营品牌 AngieGan 及联合研发品牌 ECOTOP，提供动物实验配套试剂盒、组织形态学染色试剂、分子生物学检测试剂盒以及部分转录组 / 宏基因组预处理试剂，帮助课题组快速搭建实验体系。" %}</p>
+        <p class="product-tag">{% trans "试剂耗材 · 多品牌合作" %}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

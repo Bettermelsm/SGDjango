@@ -1,0 +1,103 @@
+{% extends 'website/index.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/website.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<section class="page-header">
+  <h1>{% trans "技术服务" %}</h1>
+  <p>{% trans "动物饲养 · 模型构建 · 检测评估 · 数据分析" %}</p>
+</section>
+
+<section class="section-container">
+  <h2>{% trans "动物饲养平台" %}</h2>
+  <div class="service-card with-image">
+    <div class="service-image">
+      <img src="{% static 'images/01an_room.png' %}" alt="SPF Animal Facility">
+    </div>
+    <div class="service-text">
+      <h3>{% trans "SPF 动物房" %}</h3>
+      <p>{% trans "动物房位于番禺石楼创新科技园内，配备超过 500 个小鼠 IVC 饲养笼位和 150 个大鼠 IVC 饲养笼位，屏障系统内设有独立动物实验室，可满足部分手术操作及行为学检测需求。" %}</p>
+      <p>{% trans "通过标准化饲养流程和环境监测，保障实验动物健康与实验数据的稳定性，为课题组提供可靠的基础平台。" %}</p>
+    </div>
+  </div>
+</section>
+
+<section class="section-container">
+  <h2>{% trans "神经系统模型" %}</h2>
+  <div class="service-grid">
+    <div class="service-card with-image">
+      <div class="service-image">
+        <img src="{% static 'images/02CSR.png' %}" alt="CSR Model">
+      </div>
+      <div class="service-text">
+        <h3>{% trans "CSR 神经根型颈椎病模型" %}</h3>
+        <p class="sub-title">{% trans "造模要点" %}</p>
+        <p>{% trans "通过暴露 C7–T1 椎板并经椎管平行插入特制聚酰胺卡压线，使其位于 C5–T1 神经根处，实现对神经根的持续卡压，稳定复制神经根型颈椎病病理状态。" %}</p>
+        <p class="sub-title">{% trans "模型检测 · 周期" %}</p>
+        <p>{% trans "支持步态评分、步态模式分析、MRI 定位及 HE 染色等多指标评估，实验周期约 7–14 天。" %}</p>
+      </div>
+    </div>
+    <div class="service-card with-image">
+      <div class="service-image">
+        <img src="{% static 'images/03MCAO.png' %}" alt="MCAO Model">
+      </div>
+      <div class="service-text">
+        <h3>{% trans "MCAO 大脑中动脉闭塞模型" %}</h3>
+        <p class="sub-title">{% trans "造模要点" %}</p>
+        <p>{% trans "在大鼠颈部暴露颈总、颈外及颈内动脉，经颈内动脉插入特定直径线栓，暂时闭塞大脑中动脉，通过控制缺血与再灌注时间模拟脑缺血损伤。" %}</p>
+        <p class="sub-title">{% trans "模型检测 · 周期" %}</p>
+        <p>{% trans "可采用 TTC 染色、Longa 评分等方式进行脑梗死范围与神经功能缺损评估，实验周期约 3 天。" %}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-container">
+  <h2>{% trans "运动系统模型" %}</h2>
+  <div class="service-grid">
+    <div class="service-card with-image">
+      <div class="service-image">
+        <img src="{% static 'images/04KOA.png' %}" alt="KOA Model">
+      </div>
+      <div class="service-text">
+        <h3>{% trans "KOA 膝骨关节炎模型" %}</h3>
+        <p class="sub-title">{% trans "造模要点" %}</p>
+        <p>{% trans "在膝关节腔注射Ⅱ 型胶原蛋白酶溶液，间隔给药诱导关节软骨退变及炎症反应，形成膝骨关节炎样病理改变。" %}</p>
+        <p class="sub-title">{% trans "模型检测 · 周期" %}</p>
+        <p>{% trans "支持 microCT、HE 及番红固绿染色等结构与病理评估，实验周期约 35–42 天。" %}</p>
+      </div>
+    </div>
+    <div class="service-card with-image">
+      <div class="service-image">
+        <img src="{% static 'images/05ACLT.png' %}" alt="ACLT Model">
+      </div>
+      <div class="service-text">
+        <h3>{% trans "ACLT 前交叉韧带横断模型" %}</h3>
+        <p class="sub-title">{% trans "造模要点" %}</p>
+        <p>{% trans "采用吸入麻醉后在膝关节内侧入路，暴露并剪断前交叉韧带，通过 Lachman 试验证实断离，建立关节不稳定导致的继发骨关节炎模型。" %}</p>
+        <p class="sub-title">{% trans "模型检测 · 周期" %}</p>
+        <p>{% trans "通过 microCT、HE 与番红固绿染色对骨与软骨损伤程度进行综合评估，实验周期约 28–56 天。" %}</p>
+      </div>
+    </div>
+
+    <div class="service-card with-image">
+      <div class="service-image">
+        <img src="{% static 'images/bone_defect_9grid.jpg' %}" alt="Bone Defect Model">
+      </div>
+      <div class="service-text">
+        <h3>{% trans "大鼠股骨骨缺损模型" %}</h3>
+        <p class="sub-title">{% trans "造模要点" %}</p>
+        <p>{% trans "麻醉后分离股外侧肌与股二头肌暴露股骨。不锈钢钢板固定后，用截骨导板及线锯截取 4 mm 骨块，于骨缺损区置入聚甲基丙烯酸甲酯（PMMA）骨水泥块。" %}</p>
+        <p class="sub-title">{% trans "模型检测 · 周期" %}</p>
+        <p>{% trans "支持 microCT 三维重建、HE 染色、Masson 染色及生物力学测试等多指标评估，实验周期根据观察时间点而定，一般 4–12 周。" %}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

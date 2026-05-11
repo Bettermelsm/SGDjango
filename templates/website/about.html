@@ -1,0 +1,53 @@
+{% extends 'website/index.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/website.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<section class="page-header">
+  <h1 class="fw-bold">{% trans "关于我们" %}</h1>
+  <p>{% trans "您身边的专业科研助手" %} · <span class="fw-semibold">{% trans "广州三君科技有限公司" %}</span></p>
+</section>
+
+<section class="section-container">
+  <h2>{% trans "公司简介" %}</h2>
+  <div class="intro-row">
+    <div class="intro-text">
+      <p>{% trans "广州三君科技有限公司成立于 2022 年，是一家专注于动物实验及配套技术服务的科技型中小企业。" %}</p>
+      <p>{% trans "核心团队由生物医药背景的博士与资深科研技术人员组成，具备多年的动物模型构建、动物行为学检测、生物信息学分析及数据统计经验，能够为基础研究与转化医学提供一体化技术支持。" %}</p>
+      <p>{% trans "公司以「用数据说话、以技术赋能科研」为理念，持续打磨标准化实验流程与质量控制体系，助力科研项目高质量产出。" %}</p>
+    </div>
+    <div class="intro-image">
+      <img src="{% static 'images/07services.png' %}" alt="Services">
+    </div>
+  </div>
+</section>
+
+<section class="section-container">
+  <h2>{% trans "服务内容" %}</h2>
+  <div class="services-wrapper">
+    <div class="services-card">
+      <ul class="bullet-list">
+        <li>{% trans "动物模型构建：覆盖神经系统、循环系统、运动系统等常用疾病与功能模型。" %}</li>
+        <li>{% trans "动物行为学与形态学检测：提供记忆学习、焦虑抑郁、运动协调等多维度评估方案。" %}</li>
+        <li>{% trans "动物饲养托管：支持 SPF 级与清洁级动物饲养环境及日常健康监测。" %}</li>
+        <li>{% trans "生物信息学分析：涵盖转录组、宏基因组、单细胞测序等多组学数据分析与可视化报告输出。" %}</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section-container">
+  <h2>{% trans "我们的优势" %}</h2>
+  <div class="advantage-card">
+    <p>{% trans "三君科技与多所高校及科研机构建立了长期合作关系，拥有多项自主知识产权与成熟技术方案，构建了较为完整的动物实验技术链条。" %}</p>
+    <p>{% trans "公司依托标准化 SPF 动物房、行为学实验平台以及生物信息计算平台，打造从实验设计、模型构建到数据分析与结果解读的一站式科研技术服务体系，为客户提供高质量、可重复、可追溯的科研支撑。" %}</p>
+    <p>{% trans "通过专业团队、规范流程与严格质控，三君科技致力于成为科研工作者可信赖的长期合作伙伴。" %}</p>
+  </div>
+</section>
+
+{% endblock %}

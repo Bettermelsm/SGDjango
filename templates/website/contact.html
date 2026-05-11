@@ -1,0 +1,34 @@
+{% extends 'website/index.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/website.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<section class="page-header gradient-bg">
+  <h1>{% trans "联系我们" %}</h1>
+  <p>{% trans "您身边的专业科研助手" %} · {% trans "广州三君科技有限公司" %}</p>
+</section>
+
+<section class="section-container contact-layout">
+  <div class="contact-card">
+    <h2>{% trans "联系方式" %}</h2>
+    <p>{% trans "联系电话：19860077274（赖经理）" %}</p>
+    <p>{% trans "邮箱：info@sengene.top" %}: <a href="mailto:info@sengene.top">info@sengene.top</a></p>
+    <p>{% trans "地址：广州市番禺区石楼镇创新科技园A3栋407" %}</p>
+  </div>
+  <div class="contact-card">
+    <h2>{% trans "可提供服务" %}</h2>
+    <ul class="bullet-list">
+      <li>{% trans "动物模型构建（神经系统、循环系统、运动系统等）" %}</li>
+      <li>{% trans "动物行为学与形态学检测" %}</li>
+      <li>{% trans "SPF / 屏障级动物饲养与托管" %}</li>
+      <li>{% trans "生物信息学数据分析（转录组、宏基因组、单细胞测序等）" %}</li>
+    </ul>
+  </div>
+</section>
+
+{% endblock %}

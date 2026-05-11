@@ -1,0 +1,72 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>广州三君科技有限公司 | Sengene Technology</title>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+  <!-- 顶部导航 -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="{% static 'images/logo100K.jpg' %}" alt="Sengene Logo">
+        <h1>三君科技 <span>Sengene Technology</span></h1>
+      </div>
+      <ul class="menu">
+        <li><a href="{% url 'index' %}">首页</a></li>
+	<li><a href="{% url 'about' %}">关于我们</a></li>
+        <li><a href="#">技术服务</a></li>
+        <li><a href="#">产品中心</a></li>
+        <li><a href="#">技术交流</a></li>
+        <li><a href="#">联系我们</a></li>
+      </ul>
+    </nav>
+   </header>
+  
+   <!-- 首屏 -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>让科技赋能生命科学</h2>
+      <p>广州三君科技有限公司 — 专注于动物实验与科研数据分析的综合技术平台</p>
+      <a class="btn" href="#">了解更多</a>
+    </div>
+    <div class="hero-img">
+      <img src="{% static 'images/door.jpg' %}" alt="Sengene Lab">
+    </div>
+  </section>
+
+  <!-- 核心业务 -->
+  <section class="services">
+    <h3>核心业务方向</h3>
+    <div class="cards">
+      <div class="card">
+        <h4>动物实验平台</h4>
+        <p>涵盖神经系统疾病模型、骨科疾病模型等动物实验全流程服务。</p>
+      </div>
+      <div class="card">
+        <h4>大数据分析</h4>
+        <p>基于多组学、生物信息学与AI算法的科研数据挖掘与可视化。</p>
+      </div>
+      <div class="card">
+        <h4>分子检测服务</h4>
+        <p>提供基因表达、外泌体分析及信号通路研究的一站式检测方案。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="footer-info">
+      <img src="{% static 'images/ad.jpg' %}" alt="Sengene QR Code" width="120">
+      <p>广州三君科技有限公司&emsp;&emsp; &emsp; &emsp;&emsp;Guangzhou Sengene Technology Co., Ltd</p>
+      <p>📍 地址：广东省广州市番禺区石楼镇创启路63号A3栋407<br>📧 邮箱：info@sengene.top&emsp; &emsp; &emsp; &emsp; &emsp; 电话：19860077274</p>
+      <p>网站备案号：粤ICP备2023039533号-1&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; © 2025 Sengene Technology. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+

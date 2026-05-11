@@ -1,0 +1,164 @@
+body {
+  font-family: "Noto Sans SC", "Roboto", sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* 顶部导航 */
+.navbar {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo img {
+  height: 55px;
+}
+
+.logo h1 {
+  font-size: 22px;
+  color: #007ACC;
+  margin: 0;
+}
+
+.logo h1 span {
+  display: block;
+  font-size: 14px;
+  color: #5BB75B;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #007ACC;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #5BB75B;
+}
+
+/* 首屏 */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(to right, #e0f7fa, #ffffff);
+  padding: 60px 40px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 480px;
+}
+
+.hero-text h2 {
+  font-size: 36px;
+  color: #007ACC;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-top: 15px;
+  color: #555;
+}
+
+.btn {
+  background-color: #007ACC;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #5BB75B;
+}
+
+.hero-img img {
+  width: 420px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* 核心业务 */
+.services {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+}
+
+.services h3 {
+  font-size: 28px;
+  color: #007ACC;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  background: #f3f9f9;
+  padding: 25px;
+  border-radius: 10px;
+  width: 260px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.card h4 {
+  color: #007ACC;
+  margin-bottom: 10px;
+}
+
+/* 页脚 */
+.footer {
+  text-align: center;
+  background: #007ACC;
+  color: white;
+  padding: 40px 10px;
+}
+
+.footer img {
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  margin: 6px 0;
+  font-size: 14px;
+}
+

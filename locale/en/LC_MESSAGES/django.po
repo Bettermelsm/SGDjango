@@ -1,0 +1,300 @@
+# English translations for sengene website.
+# Copyright (C) 2025 Guangzhou Sengene Technology Co., Ltd
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sengene 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-01 00:00+0800\n"
+"PO-Revision-Date: 2025-01-01 00:00+0800\n"
+"Last-Translator: Sengene Technology\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ===== Navigation =====
+msgid "三君科技"
+msgstr "Sengene Tech"
+
+msgid "首页"
+msgstr "Home"
+
+msgid "关于我们"
+msgstr "About Us"
+
+msgid "技术服务"
+msgstr "Technical Service"
+
+msgid "产品中心"
+msgstr "Products"
+
+msgid "技术交流"
+msgstr "Communication"
+
+msgid "联系我们"
+msgstr "Contact Us"
+
+# ===== Footer =====
+msgid "广州三君科技有限公司"
+msgstr "Guangzhou Sengene Technology Co., Ltd"
+
+msgid "地址：广东省广州市番禺区石楼镇创启路63号A3栋407"
+msgstr "Address: Room 407, Building A3, No. 63 Chuangqi Road, Shilou Town, Panyu District, Guangzhou"
+
+msgid "邮箱：info@sengene.top"
+msgstr "Email: info@sengene.top"
+
+msgid "电话：19860077274"
+msgstr "Phone: 19860077274"
+
+msgid "粤ICP备2023039533号-1"
+msgstr "Guangdong ICP No. 2023039533-1"
+
+# ===== Home Page =====
+msgid "让科技赋能生命科学"
+msgstr "Empowering Life Sciences with Technology"
+
+msgid "广州三君科技有限公司 — 专注于动物实验与科研数据分析的综合技术平台"
+msgstr "Guangzhou Sengene Technology Co., Ltd — A comprehensive platform for animal experiments and scientific data analysis"
+
+msgid "了解更多"
+msgstr "Learn More"
+
+msgid "核心业务方向"
+msgstr "Core Services"
+
+msgid "动物实验平台"
+msgstr "Animal Experiment Platform"
+
+msgid "涵盖神经系统疾病模型、骨科疾病模型等动物实验全流程服务。"
+msgstr "Full-process animal experiment services including neurological and orthopedic disease models."
+
+msgid "大数据分析"
+msgstr "Big Data Analysis"
+
+msgid "基于多组学、生物信息学与AI算法的科研数据挖掘与可视化。"
+msgstr "Multi-omics, bioinformatics and AI-powered scientific data mining and visualization."
+
+msgid "分子检测服务"
+msgstr "Molecular Detection Services"
+
+msgid "提供基因表达、外泌体分析及信号通路研究的一站式检测方案。"
+msgstr "One-stop detection solutions for gene expression, exosome analysis, and signaling pathway research."
+
+# ===== About Page =====
+msgid "关于我们"
+msgstr "About Us"
+
+msgid "您身边的专业科研助手"
+msgstr "Your Professional Research Assistant"
+
+msgid "公司简介"
+msgstr "Company Profile"
+
+msgid "广州三君科技有限公司成立于 2022 年，是一家专注于动物实验及配套技术服务的科技型中小企业。"
+msgstr "Guangzhou Sengene Technology Co., Ltd was established in 2022, a technology-based SME focusing on animal experiments and supporting technical services."
+
+msgid "核心团队由生物医药背景的博士与资深科研技术人员组成，具备多年的动物模型构建、动物行为学检测、生物信息学分析及数据统计经验，能够为基础研究与转化医学提供一体化技术支持。"
+msgstr "Our core team consists of PhDs and senior researchers in biomedicine with years of experience in animal model construction, behavioral testing, bioinformatics analysis, and statistical analysis."
+
+msgid "公司以「用数据说话、以技术赋能科研」为理念，持续打磨标准化实验流程与质量控制体系，助力科研项目高质量产出。"
+msgstr "Guided by the philosophy of \"data-driven, technology-empowered research\", we continuously refine standardized experimental procedures and quality control systems."
+
+msgid "服务内容"
+msgstr "Our Services"
+
+msgid "动物模型构建：覆盖神经系统、循环系统、运动系统等常用疾病与功能模型。"
+msgstr "Animal model construction: covering neurological, circulatory, and musculoskeletal disease models."
+
+msgid "动物行为学与形态学检测：提供记忆学习、焦虑抑郁、运动协调等多维度评估方案。"
+msgstr "Behavioral and morphological testing: multi-dimensional assessment including memory, anxiety, and motor coordination."
+
+msgid "动物饲养托管：支持 SPF 级与清洁级动物饲养环境及日常健康监测。"
+msgstr "Animal housing: SPF-grade and clean-grade animal housing with daily health monitoring."
+
+msgid "生物信息学分析：涵盖转录组、宏基因组、单细胞测序等多组学数据分析与可视化报告输出。"
+msgstr "Bioinformatics analysis: transcriptomics, metagenomics, single-cell sequencing analysis and visualization."
+
+msgid "我们的优势"
+msgstr "Our Advantages"
+
+msgid "三君科技与多所高校及科研机构建立了长期合作关系，拥有多项自主知识产权与成熟技术方案，构建了较为完整的动物实验技术链条。"
+msgstr "We have established long-term partnerships with universities and research institutions, with proprietary intellectual property and mature technical solutions."
+
+msgid "公司依托标准化 SPF 动物房、行为学实验平台以及生物信息计算平台，打造从实验设计、模型构建到数据分析与结果解读的一站式科研技术服务体系，为客户提供高质量、可重复、可追溯的科研支撑。"
+msgstr "Built on standardized SPF animal facilities, behavioral testing platforms, and bioinformatics computing platforms, we provide a one-stop research service system."
+
+msgid "通过专业团队、规范流程与严格质控，三君科技致力于成为科研工作者可信赖的长期合作伙伴。"
+msgstr "With professional teams, standardized procedures, and strict quality control, Sengene is committed to being a reliable long-term partner for researchers."
+
+# ===== Service Page =====
+msgid "动物饲养 · 模型构建 · 检测评估 · 数据分析"
+msgstr "Animal Housing · Model Construction · Testing & Evaluation · Data Analysis"
+
+msgid "动物饲养平台"
+msgstr "Animal Housing Platform"
+
+msgid "SPF 动物房"
+msgstr "SPF Animal Facility"
+
+msgid "动物房位于番禺石楼创新科技园内，配备超过 500 个小鼠 IVC 饲养笼位和 150 个大鼠 IVC 饲养笼位，屏障系统内设有独立动物实验室，可满足部分手术操作及行为学检测需求。"
+msgstr "Located in Panyu Shilou Innovation Technology Park, equipped with 500+ mouse IVC cages and 150 rat IVC cages. The barrier system includes independent animal laboratories for surgical operations and behavioral testing."
+
+msgid "通过标准化饲养流程和环境监测，保障实验动物健康与实验数据的稳定性，为课题组提供可靠的基础平台。"
+msgstr "Standardized feeding procedures and environmental monitoring ensure animal health and data stability."
+
+msgid "神经系统模型"
+msgstr "Neurological Models"
+
+msgid "CSR 神经根型颈椎病模型"
+msgstr "CSR Cervical Radiculopathy Model"
+
+msgid "造模要点"
+msgstr "Key Points"
+
+msgid "通过暴露 C7–T1 椎板并经椎管平行插入特制聚酰胺卡压线，使其位于 C5–T1 神经根处，实现对神经根的持续卡压，稳定复制神经根型颈椎病病理状态。"
+msgstr "By exposing the C7-T1 lamina and inserting a polyamide compression line through the spinal canal at the C5-T1 nerve roots, sustained compression is achieved to replicate cervical radiculopathy."
+
+msgid "模型检测 · 周期"
+msgstr "Assessment & Duration"
+
+msgid "支持步态评分、步态模式分析、MRI 定位及 HE 染色等多指标评估，实验周期约 7–14 天。"
+msgstr "Gait scoring, gait pattern analysis, MRI positioning, and HE staining. Duration: 7-14 days."
+
+msgid "MCAO 大脑中动脉闭塞模型"
+msgstr "MCAO Middle Cerebral Artery Occlusion Model"
+
+msgid "在大鼠颈部暴露颈总、颈外及颈内动脉，经颈内动脉插入特定直径线栓，暂时闭塞大脑中动脉，通过控制缺血与再灌注时间模拟脑缺血损伤。"
+msgstr "Exposing the common, external, and internal carotid arteries, inserting a filament through the internal carotid to temporarily occlude the middle cerebral artery, simulating ischemic injury."
+
+msgid "可采用 TTC 染色、Longa 评分等方式进行脑梗死范围与神经功能缺损评估，实验周期约 3 天。"
+msgstr "TTC staining, Longa scoring for infarct size and neurological deficit assessment. Duration: ~3 days."
+
+msgid "运动系统模型"
+msgstr "Musculoskeletal Models"
+
+msgid "KOA 膝骨关节炎模型"
+msgstr "KOA Knee Osteoarthritis Model"
+
+msgid "在膝关节腔注射Ⅱ 型胶原蛋白酶溶液，间隔给药诱导关节软骨退变及炎症反应，形成膝骨关节炎样病理改变。"
+msgstr "Intra-articular injection of type II collagenase solution to induce cartilage degeneration and inflammation, forming knee osteoarthritis-like pathology."
+
+msgid "支持 microCT、HE 及番红固绿染色等结构与病理评估，实验周期约 35–42 天。"
+msgstr "MicroCT, HE and Safranin O/Fast Green staining for structural and pathological assessment. Duration: 35-42 days."
+
+msgid "ACLT 前交叉韧带横断模型"
+msgstr "ACLT Anterior Cruciate Ligament Transection Model"
+
+msgid "采用吸入麻醉后在膝关节内侧入路，暴露并剪断前交叉韧带，通过 Lachman 试验证实断离，建立关节不稳定导致的继发骨关节炎模型。"
+msgstr "Using inhalation anesthesia, medial knee approach to expose and transect the ACL, confirmed by Lachman test, establishing secondary osteoarthritis model."
+
+msgid "通过 microCT、HE 与番红固绿染色对骨与软骨损伤程度进行综合评估，实验周期约 28–56 天。"
+msgstr "MicroCT, HE and Safranin O/Fast Green staining for bone and cartilage damage assessment. Duration: 28-56 days."
+
+# ===== Product Page =====
+msgid "科研仪器 · 实验耗材 · 模型资源库"
+msgstr "Research Instruments · Lab Consumables · Model Resources"
+
+msgid "热门产品"
+msgstr "Featured Products"
+
+msgid "实验动物核销代购"
+msgstr "Experimental Animal Procurement"
+
+msgid "提供实验动物统一核销及代购服务，覆盖珠海百试通、北京维通利华、广东药康等多家合规供应商，支持多品种、多品系小鼠与大鼠，满足不同课题组的实验动物需求。"
+msgstr "Unified procurement and verification services covering certified suppliers including Zhuhai Baishitong, Beijing Weitong Lihua, and Guangdong YaoKang."
+
+msgid "动物资源 · 合规代购"
+msgstr "Animal Resources · Certified Procurement"
+
+msgid "动物行为学检测系统"
+msgstr "Animal Behavior Testing System"
+
+msgid "适用于小鼠 / 大鼠的旷场实验、水迷宫、行为标定及记忆行为检测，支持多通道自动化采集与分析，提高行为学数据的客观性与可重复性。"
+msgstr "Open field, water maze, behavioral calibration and memory testing for mice/rats with multi-channel automated data collection."
+
+msgid "行为学平台 · 软硬件支持"
+msgstr "Behavioral Platform · Hardware & Software"
+
+msgid "IVC 动物饲养系统"
+msgstr "IVC Animal Housing System"
+
+msgid "提供高标准屏障级 IVC 笼具及配套通风过滤系统，适合长期动物实验与清洁度要求较高的项目，支持小规模试验至规模化饲养的不同场景。"
+msgstr "High-standard barrier-level IVC cages with ventilation and filtration systems for long-term animal experiments."
+
+msgid "SPF 饲养 · 环境控制"
+msgstr "SPF Housing · Environmental Control"
+
+msgid "动物实验及测序相关试剂盒"
+msgstr "Reagent Kits for Animal Experiments & Sequencing"
+
+msgid "自营品牌 AngieGan 及联合研发品牌 ECOTOP，提供动物实验配套试剂盒、组织形态学染色试剂、分子生物学检测试剂盒以及部分转录组 / 宏基因组预处理试剂，帮助课题组快速搭建实验体系。"
+msgstr "Own brand AngieGan and co-developed brand ECOTOP. Reagent kits for animal experiments, histology, molecular biology, and sequencing."
+
+msgid "试剂耗材 · 多品牌合作"
+msgstr "Reagents & Consumables · Multi-brand"
+
+# ===== Communication Page =====
+msgid "科研方法分享 · 动物模型经验 · 生信分析指南"
+msgstr "Research Methods · Animal Model Experience · Bioinformatics Guide"
+
+msgid "最新文章"
+msgstr "Latest Articles"
+
+msgid "CSR 神经根型颈椎病模型的构建要点"
+msgstr "Key Construction Points of CSR Cervical Radiculopathy Model"
+
+msgid "结合实际手术案例，总结 CSR 模型的关键步骤、常见问题及优化建议。"
+msgstr "Summarizing key steps, common issues, and optimization suggestions for CSR model construction based on actual surgical cases."
+
+msgid "阅读全文"
+msgstr "Read Full Article"
+
+msgid "动物行为学检测的常见问题与优化思路"
+msgstr "Common Issues and Optimization Strategies in Animal Behavioral Testing"
+
+msgid "从设备选择、环境控制与操作规范三个层面系统梳理影响行为学结果稳定性的关键因素。"
+msgstr "Systematic review of key factors affecting behavioral testing stability from equipment, environment, and operational perspectives."
+
+msgid "转录组数据分析流程：从 FASTQ 到 KEGG"
+msgstr "Transcriptome Data Analysis Pipeline: From FASTQ to KEGG"
+
+msgid "面向生物医学科研人员，梳理从原始数据质控、比对、差异分析到功能富集的标准分析管线。"
+msgstr "A standard analysis pipeline for biomedical researchers, from raw data QC, alignment, differential analysis to functional enrichment."
+
+# ===== Contact Page =====
+msgid "联系方式"
+msgstr "Contact Information"
+
+msgid "联系电话：19860077274（赖经理）"
+msgstr "Phone: 19860077274 (Manager Lai)"
+
+msgid "地址：广州市番禺区石楼镇创新科技园A3栋407"
+msgstr "Address: Room 407, Building A3, Panyu Innovation Technology Park, Shilou Town, Guangzhou"
+
+msgid "可提供服务"
+msgstr "Available Services"
+
+msgid "动物模型构建（神经系统、循环系统、运动系统等）"
+msgstr "Animal model construction (neurological, circulatory, musculoskeletal)"
+
+msgid "动物行为学与形态学检测"
+msgstr "Behavioral and morphological testing"
+
+msgid "SPF / 屏障级动物饲养与托管"
+msgstr "SPF / Barrier-level animal housing and management"
+
+msgid "生物信息学数据分析（转录组、宏基因组、单细胞测序等）"
+msgstr "Bioinformatics analysis (transcriptomics, metagenomics, single-cell sequencing)"
+
+# ===== Bone Defect Model =====
+msgid "大鼠股骨骨缺损模型"
+msgstr "Rat Femoral Bone Defect Model"
+
+msgid "麻醉后分离股外侧肌与股二头肌暴露股骨。不锈钢钢板固定后，用截骨导板及线锯截取 4 mm 骨块，于骨缺损区置入聚甲基丙烯酸甲酯（PMMA）骨水泥块。"
+msgstr "After anesthesia, blunt dissection between the vastus lateralis and biceps femoris exposes the femur. After fixation with a stainless steel plate, a 4mm bone segment is resected using an osteotomy guide and wire saw. PMMA bone cement is placed in the defect area."
+
+msgid "支持 microCT 三维重建、HE 染色、Masson 染色及生物力学测试等多指标评估，实验周期根据观察时间点而定，一般 4–12 周。"
+msgstr "MicroCT 3D reconstruction, HE staining, Masson staining, and biomechanical testing. Duration: typically 4-12 weeks depending on observation timepoints."
