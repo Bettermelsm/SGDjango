@@ -298,3 +298,58 @@ msgstr "After anesthesia, blunt dissection between the vastus lateralis and bice
 
 msgid "支持 microCT 三维重建、HE 染色、Masson 染色及生物力学测试等多指标评估，实验周期根据观察时间点而定，一般 4–12 周。"
 msgstr "MicroCT 3D reconstruction, HE staining, Masson staining, and biomechanical testing. Duration: typically 4-12 weeks depending on observation timepoints."
+
+# ===== AI Page =====
+msgid "人工智能"
+msgstr "Artificial Intelligence"
+
+msgid "以 AI 赋能科研，探索智能前沿"
+msgstr "Empowering Research with AI, Exploring the Intelligent Frontier"
+
+msgid "三君科技致力于将人工智能技术融入生命科学研究全流程，从科研数据处理、智能实验辅助到脑机接口与具身智能，为科研工作者提供面向未来的智能化解决方案。"
+msgstr "Sengene Technology is dedicated to integrating AI into the entire life sciences research workflow — from data processing and intelligent experimental assistance to brain-machine interfaces and embodied intelligence — providing future-ready solutions for researchers."
+
+msgid "AI 业务板块"
+msgstr "AI Solutions"
+
+msgid "科研智能体部署解决方案"
+msgstr "Research AI Agent Deployment Solutions"
+
+msgid "面向科研团队提供一站式 AI 智能体部署服务，涵盖需求分析、架构设计、模型选型、私有化部署与持续运维。支持本地服务器、私有云及混合环境，帮助课题组快速构建专属的科研 AI 助手，实现文献检索、数据分析、实验记录等环节的智能化。"
+msgstr "One-stop AI agent deployment services for research teams, covering requirements analysis, architecture design, model selection, private deployment, and ongoing maintenance. Supporting on-premise, private cloud, and hybrid environments to help labs build dedicated research AI assistants for literature search, data analysis, and experiment management."
+
+msgid "智能体 · 部署运维"
+msgstr "AI Agent · Deployment & Ops"
+
+msgid "专用智能体开发"
+msgstr "Custom AI Agent Development"
+
+msgid "针对特定科研场景，提供定制化的 AI 智能体开发服务。从自然语言交互、多模态数据处理到自动化实验流程编排，根据课题需求量身打造专用智能体，助力科研效率跃升。"
+msgstr "Custom AI agent development for specific research scenarios. From natural language interaction and multimodal data processing to automated experimental workflow orchestration — purpose-built agents tailored to your research needs."
+
+msgid "定制开发 · 行业场景"
+msgstr "Custom Dev · Industry Solutions"
+
+msgid "鼠机接口"
+msgstr "Rat-Machine Interface"
+
+msgid "基于高通量神经信号采集与解码技术，构建大鼠等模式动物的脑机接口（BMI）系统。实现神经信号的实时采集、特征提取与行为解码，为神经科学研究与类脑智能探索提供前沿技术平台。"
+msgstr "Brain-Machine Interface (BMI) systems for rats and other model animals, based on high-throughput neural signal acquisition and decoding. Real-time signal collection, feature extraction, and behavioral decoding for neuroscience research and brain-inspired intelligence exploration."
+
+msgid "脑机接口 · 神经工程"
+msgstr "Brain-Machine Interface · Neural Engineering"
+
+msgid "具身机器人"
+msgstr "Embodied Robotics"
+
+msgid "融合多模态感知、强化学习与仿生控制，开发面向科研场景的具身智能机器人平台。支持自主导航、环境交互及协作操作，为动物行为学、运动控制等研究提供智能化的实验工具。"
+msgstr "Embodied intelligent robot platforms for research, integrating multimodal perception, reinforcement learning, and biomimetic control. Supporting autonomous navigation, environmental interaction, and collaborative operations for animal behavior and motor control studies."
+
+msgid "具身智能 · 仿生系统"
+msgstr "Embodied Intelligence · Biomimetic Systems"
+
+msgid "携手探索 AI + 生命科学的无限可能"
+msgstr "Exploring the Infinite Possibilities of AI + Life Sciences Together"
+
+msgid "我们期待与您共同探索人工智能在生命科学领域的创新应用。"
+msgstr "We look forward to exploring innovative AI applications in life sciences with you."

@@ -1,0 +1,72 @@
+{% extends 'website/index.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/website.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<section class="page-header blue-bg">
+  <h1>{% trans "人工智能" %}</h1>
+  <p>{% trans "以 AI 赋能科研，探索智能前沿" %}</p>
+</section>
+
+<section class="section-container" style="text-align:center;">
+  <p>{% trans "三君科技致力于将人工智能技术融入生命科学研究全流程，从科研数据处理、智能实验辅助到脑机接口与具身智能，为科研工作者提供面向未来的智能化解决方案。" %}</p>
+</section>
+
+<section class="section-container" style="background:#fff;">
+  <h2>{% trans "AI 业务板块" %}</h2>
+  <div class="product-grid">
+    <div class="product-card">
+      <div class="product-image">
+        <img src="{% static 'images/ai_agent_deploy.jpg' %}" alt="AI Agent Deployment">
+      </div>
+      <div class="product-body">
+        <h3>{% trans "科研智能体部署解决方案" %}</h3>
+        <p>{% trans "面向科研团队提供一站式 AI 智能体部署服务，涵盖需求分析、架构设计、模型选型、私有化部署与持续运维。支持本地服务器、私有云及混合环境，帮助课题组快速构建专属的科研 AI 助手，实现文献检索、数据分析、实验记录等环节的智能化。" %}</p>
+        <p class="product-tag">{% trans "智能体 · 部署运维" %}</p>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="{% static 'images/ai_agent_custom.jpg' %}" alt="Custom AI Agent">
+      </div>
+      <div class="product-body">
+        <h3>{% trans "专用智能体开发" %}</h3>
+        <p>{% trans "针对特定科研场景，提供定制化的 AI 智能体开发服务。从自然语言交互、多模态数据处理到自动化实验流程编排，根据课题需求量身打造专用智能体，助力科研效率跃升。" %}</p>
+        <p class="product-tag">{% trans "定制开发 · 行业场景" %}</p>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="{% static 'images/ai_bmi.jpg' %}" alt="Brain-Machine Interface">
+      </div>
+      <div class="product-body">
+        <h3>{% trans "鼠机接口" %}</h3>
+        <p>{% trans "基于高通量神经信号采集与解码技术，构建大鼠等模式动物的脑机接口（BMI）系统。实现神经信号的实时采集、特征提取与行为解码，为神经科学研究与类脑智能探索提供前沿技术平台。" %}</p>
+        <p class="product-tag">{% trans "脑机接口 · 神经工程" %}</p>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="{% static 'images/ai_robot.jpg' %}" alt="Embodied Robot">
+      </div>
+      <div class="product-body">
+        <h3>{% trans "具身机器人" %}</h3>
+        <p>{% trans "融合多模态感知、强化学习与仿生控制，开发面向科研场景的具身智能机器人平台。支持自主导航、环境交互及协作操作，为动物行为学、运动控制等研究提供智能化的实验工具。" %}</p>
+        <p class="product-tag">{% trans "具身智能 · 仿生系统" %}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-container" style="text-align:center;">
+  <h2>{% trans "携手探索 AI + 生命科学的无限可能" %}</h2>
+  <p>{% trans "我们期待与您共同探索人工智能在生命科学领域的创新应用。" %}</p>
+  <a href="{% url 'contact' %}" class="btn">{% trans "联系我们" %}</a>
+</section>
+
+{% endblock %}

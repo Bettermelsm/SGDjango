@@ -26,6 +26,9 @@ def service(request):
 def product(request):
     return render(request,'website/product.html')
 
+def ai(request):
+    return render(request, 'website/ai.html')
+
 def communication(request):
     return render(request,'website/communication.html')
 
