@@ -2,6 +2,11 @@
 {% load static %}
 {% load i18n %}
 
+{% block seo_title %}{% trans "联系三君科技 — 广州动物实验服务商" %}{% endblock %}
+{% block seo_description %}{% trans "电话19860077274，地址广州市番禺区石楼镇创新科技园A3栋，欢迎咨询动物实验与数据分析服务。" %}{% endblock %}
+{% block og_title %}{% trans "联系我们 — 三君科技" %}{% endblock %}
+{% block og_description %}{% trans "联系三君科技，获取动物实验与数据分析服务。" %}{% endblock %}
+
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'css/website.css' %}">
 {% endblock %}
@@ -31,4 +36,27 @@
   </div>
 </section>
 
+{% endblock %}
+
+{% block extra_schema %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "广州三君科技有限公司",
+  "alternateName": "Sengene Technology",
+  "url": "https://sengene.top",
+  "logo": "https://sengene.top/static/images/logo100K.jpg",
+  "telephone": "+86-19860077274",
+  "email": "info@sengene.top",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Room 407, Building A3, No. 63 Chuangqi Road, Shilou Town, Panyu District",
+    "addressLocality": "广州",
+    "addressRegion": "广东",
+    "addressCountry": "CN"
+  },
+  "openingHours": "Mo-Fr 09:00-18:00"
+}
+</script>
 {% endblock %}

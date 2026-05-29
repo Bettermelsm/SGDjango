@@ -353,3 +353,85 @@ msgstr "Exploring the Infinite Possibilities of AI + Life Sciences Together"
 
 msgid "我们期待与您共同探索人工智能在生命科学领域的创新应用。"
 msgstr "We look forward to exploring innovative AI applications in life sciences with you."
+
+# ===== SEO Titles & Descriptions =====
+msgid "三君科技 — 动物实验与科研数据服务平台"
+msgstr "Sengene Technology — Animal Experiment & Scientific Data Service Platform"
+
+msgid "广州三君科技提供动物模型构建、行为学检测、生物信息学分析及AI智能体服务，助力科研高质量产出。"
+msgstr "Sengene Technology provides animal model construction, behavioral testing, bioinformatics analysis, and AI agent services for high-quality research outcomes."
+
+msgid "广州三君科技提供动物模型构建、行为学检测、生物信息学分析及AI智能体服务。"
+msgstr "Sengene Technology provides animal model construction, behavioral testing, bioinformatics analysis, and AI agent services."
+
+msgid "关于三君科技 — 专业动物实验与生信分析团队"
+msgstr "About Sengene Technology — Professional Animal Experiment & Bioinformatics Team"
+
+msgid "三君科技成立于2022年，核心团队由生物医药博士组成，提供从实验设计到数据分析的一站式科研服务。"
+msgstr "Founded in 2022, Sengene's core team of biomedical PhDs provides one-stop research services from experimental design to data analysis."
+
+msgid "关于三君科技"
+msgstr "About Sengene Technology"
+
+msgid "三君科技，专业动物实验与生信分析团队，提供一站式科研技术服务。"
+msgstr "Sengene Technology — professional animal experiment and bioinformatics team providing one-stop research services."
+
+msgid "技术服务 — 动物模型构建与检测评估"
+msgstr "Technical Services — Animal Model Construction & Assessment"
+
+msgid "提供SPF动物饲养、CSR/MCAO/KOA/ACLT等疾病模型构建、行为学检测及骨缺损模型服务。"
+msgstr "SPF animal housing, CSR/MCAO/KOA/ACLT disease model construction, behavioral testing, and bone defect model services."
+
+msgid "技术服务 — 三君科技"
+msgstr "Technical Services — Sengene Technology"
+
+msgid "三君科技提供专业的动物模型构建、行为学检测及数据分析服务。"
+msgstr "Sengene provides professional animal model construction, behavioral testing, and data analysis services."
+
+msgid "产品中心 — 科研仪器、试剂耗材与模型资源"
+msgstr "Products — Research Instruments, Lab Consumables & Model Resources"
+
+msgid "自营品牌AngieGan、联合品牌ECOTOP，提供实验动物代购、行为学系统、IVC笼具及检测试剂盒。"
+msgstr "Own brand AngieGan, co-developed ECOTOP. Animal procurement, behavior systems, IVC cages, and reagent kits."
+
+msgid "产品中心 — 三君科技"
+msgstr "Products — Sengene Technology"
+
+msgid "科研仪器、实验耗材、试剂试剂盒，满足动物实验全流程需求。"
+msgstr "Research instruments, lab consumables, and reagent kits for the full animal experiment workflow."
+
+msgid "人工智能 — 科研智能体部署与脑机接口"
+msgstr "AI — Research Agent Deployment & Brain-Machine Interface"
+
+msgid "提供科研智能体部署、专用智能体开发、鼠机接口及具身机器人解决方案，探索AI+生命科学。"
+msgstr "Research AI agent deployment, custom agent development, rat-machine interface, and embodied robotics solutions."
+
+msgid "人工智能 — 三君科技"
+msgstr "AI — Sengene Technology"
+
+msgid "三君科技AI业务：科研智能体、鼠机接口、具身机器人。"
+msgstr "Sengene AI: research agents, rat-machine interface, embodied robotics."
+
+msgid "技术交流 — 科研方法分享与生信分析指南"
+msgstr "Technical Communication — Research Methods & Bioinformatics Guide"
+
+msgid "分享动物模型构建经验、行为学检测方法、转录组分析流程等科研技术文章。"
+msgstr "Sharing articles on animal model construction, behavioral testing methods, and transcriptome analysis workflows."
+
+msgid "技术交流 — 三君科技"
+msgstr "Technical Communication — Sengene Technology"
+
+msgid "科研方法分享、动物模型经验、生信分析指南。"
+msgstr "Research methods, animal model experience, bioinformatics guide."
+
+msgid "联系三君科技 — 广州动物实验服务商"
+msgstr "Contact Sengene Technology — Guangzhou Animal Experiment Service Provider"
+
+msgid "电话19860077274，地址广州市番禺区石楼镇创新科技园A3栋，欢迎咨询动物实验与数据分析服务。"
+msgstr "Phone 19860077274. Room 407, Building A3, Innovation Technology Park, Shilou Town, Panyu, Guangzhou. Contact us for animal experiments and data analysis."
+
+msgid "联系我们 — 三君科技"
+msgstr "Contact Us — Sengene Technology"
+
+msgid "联系三君科技，获取动物实验与数据分析服务。"
+msgstr "Contact Sengene for animal experiment and data analysis services."

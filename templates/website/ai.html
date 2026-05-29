@@ -2,6 +2,11 @@
 {% load static %}
 {% load i18n %}
 
+{% block seo_title %}{% trans "人工智能 — 科研智能体部署与脑机接口" %}{% endblock %}
+{% block seo_description %}{% trans "提供科研智能体部署、专用智能体开发、鼠机接口及具身机器人解决方案，探索AI+生命科学。" %}{% endblock %}
+{% block og_title %}{% trans "人工智能 — 三君科技" %}{% endblock %}
+{% block og_description %}{% trans "三君科技AI业务：科研智能体、鼠机接口、具身机器人。" %}{% endblock %}
+
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'css/website.css' %}">
 {% endblock %}

@@ -2,6 +2,11 @@
 {% load static %}
 {% load i18n %}
 
+{% block seo_title %}{% trans "技术服务 — 动物模型构建与检测评估" %}{% endblock %}
+{% block seo_description %}{% trans "提供SPF动物饲养、CSR/MCAO/KOA/ACLT等疾病模型构建、行为学检测及骨缺损模型服务。" %}{% endblock %}
+{% block og_title %}{% trans "技术服务 — 三君科技" %}{% endblock %}
+{% block og_description %}{% trans "三君科技提供专业的动物模型构建、行为学检测及数据分析服务。" %}{% endblock %}
+
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'css/website.css' %}">
 {% endblock %}

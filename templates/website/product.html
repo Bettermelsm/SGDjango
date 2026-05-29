@@ -2,6 +2,11 @@
 {% load static %}
 {% load i18n %}
 
+{% block seo_title %}{% trans "产品中心 — 科研仪器、试剂耗材与模型资源" %}{% endblock %}
+{% block seo_description %}{% trans "自营品牌AngieGan、联合品牌ECOTOP，提供实验动物代购、行为学系统、IVC笼具及检测试剂盒。" %}{% endblock %}
+{% block og_title %}{% trans "产品中心 — 三君科技" %}{% endblock %}
+{% block og_description %}{% trans "科研仪器、实验耗材、试剂试剂盒，满足动物实验全流程需求。" %}{% endblock %}
+
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'css/website.css' %}">
 {% endblock %}

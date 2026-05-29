@@ -2,6 +2,11 @@
 {% load static %}
 {% load i18n %}
 
+{% block seo_title %}{% trans "技术交流 — 科研方法分享与生信分析指南" %}{% endblock %}
+{% block seo_description %}{% trans "分享动物模型构建经验、行为学检测方法、转录组分析流程等科研技术文章。" %}{% endblock %}
+{% block og_title %}{% trans "技术交流 — 三君科技" %}{% endblock %}
+{% block og_description %}{% trans "科研方法分享、动物模型经验、生信分析指南。" %}{% endblock %}
+
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'css/website.css' %}">
 {% endblock %}
@@ -16,22 +21,42 @@
 <section class="section-container">
   <h2>{% trans "最新文章" %}</h2>
   <div class="article-list">
-    <article class="article-item">
-      <h3>{% trans "CSR 神经根型颈椎病模型的构建要点" %}</h3>
-      <p>{% trans "结合实际手术案例，总结 CSR 模型的关键步骤、常见问题及优化建议。" %}</p>
-      <a class="read-more" href="https://www.jianshu.com/u/0ff6f2236ed8" target="_blank" rel="noopener noreferrer">{% trans "阅读全文" %} &rarr;</a>
+    <article class="article-item" itemscope itemtype="https://schema.org/Article">
+      <h3 itemprop="headline">{% trans "CSR 神经根型颈椎病模型的构建要点" %}</h3>
+      <p itemprop="description">{% trans "结合实际手术案例，总结 CSR 模型的关键步骤、常见问题及优化建议。" %}</p>
+      <div class="article-meta">
+        <span class="article-date" itemprop="datePublished">2025-11-06</span>
+      </div>
+      <div class="article-links">
+        <a class="read-more" href="https://www.jianshu.com/u/0ff6f2236ed8" target="_blank" rel="noopener noreferrer">{% trans "阅读全文" %} &rarr;</a>
+      </div>
     </article>
-    <article class="article-item">
-      <h3>{% trans "动物行为学检测的常见问题与优化思路" %}</h3>
-      <p>{% trans "从设备选择、环境控制与操作规范三个层面系统梳理影响行为学结果稳定性的关键因素。" %}</p>
-      <a class="read-more" href="https://www.jianshu.com/u/0ff6f2236ed8" target="_blank" rel="noopener noreferrer">{% trans "阅读全文" %} &rarr;</a>
+    <article class="article-item" itemscope itemtype="https://schema.org/Article">
+      <h3 itemprop="headline">{% trans "动物行为学检测的常见问题与优化思路" %}</h3>
+      <p itemprop="description">{% trans "从设备选择、环境控制与操作规范三个层面系统梳理影响行为学结果稳定性的关键因素。" %}</p>
+      <div class="article-meta">
+        <span class="article-date" itemprop="datePublished">2025-12-01</span>
+      </div>
+      <div class="article-links">
+        <a class="read-more" href="https://www.jianshu.com/u/0ff6f2236ed8" target="_blank" rel="noopener noreferrer">{% trans "阅读全文" %} &rarr;</a>
+      </div>
     </article>
-    <article class="article-item">
-      <h3>{% trans "转录组数据分析流程：从 FASTQ 到 KEGG" %}</h3>
-      <p>{% trans "面向生物医学科研人员，梳理从原始数据质控、比对、差异分析到功能富集的标准分析管线。" %}</p>
-      <a class="read-more" href="https://www.jianshu.com/u/0ff6f2236ed8" target="_blank" rel="noopener noreferrer">{% trans "阅读全文" %} &rarr;</a>
+    <article class="article-item" itemscope itemtype="https://schema.org/Article">
+      <h3 itemprop="headline">{% trans "转录组数据分析流程：从 FASTQ 到 KEGG" %}</h3>
+      <p itemprop="description">{% trans "面向生物医学科研人员，梳理从原始数据质控、比对、差异分析到功能富集的标准分析管线。" %}</p>
+      <div class="article-meta">
+        <span class="article-date" itemprop="datePublished">2026-01-15</span>
+      </div>
+      <div class="article-links">
+        <a class="read-more" href="https://www.jianshu.com/u/0ff6f2236ed8" target="_blank" rel="noopener noreferrer">{% trans "阅读全文" %} &rarr;</a>
+      </div>
     </article>
   </div>
 </section>
 
+<section class="section-container" style="background:#fff; text-align:center;">
+  <h2>{% trans "Looking Forward to Communication and Cooperation" %}</h2>
+  <p>{% trans "We welcome collaboration with researchers and institutions. Feel free to reach out for technical discussions and partnership opportunities." %}</p>
+  <a href="{% url 'contact' %}" class="btn">{% trans "Contact Us" %}</a>
+</section>
 {% endblock %}

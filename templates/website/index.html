@@ -1,11 +1,27 @@
 {% load static %}
 {% load i18n %}
 <!DOCTYPE html>
-<html lang="zh-CN">
+{% get_current_language as LANGUAGE_CODE %}
+<html lang="{% if LANGUAGE_CODE == 'zh-hans' %}zh-CN{% else %}en{% endif %}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% trans "广州三君科技有限公司" %} | Sengene Technology</title>
+  <title>{% block seo_title %}{% trans "三君科技 — 动物实验与科研数据服务平台" %}{% endblock %}</title>
+  <meta name="description" content="{% block seo_description %}{% trans "广州三君科技提供动物模型构建、行为学检测、生物信息学分析及AI智能体服务，助力科研高质量产出。" %}{% endblock %}">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://sengene.top{{ request.path }}">
+  <link rel="icon" type="image/jpeg" href="{% static 'images/logo100K.jpg' %}">
+
+  {% block og_tags %}
+  <meta property="og:site_name" content="{% trans '三君科技' %}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% block og_title %}{% trans '三君科技 — 动物实验与科研数据服务平台' %}{% endblock %}">
+  <meta property="og:description" content="{% block og_description %}{% trans '广州三君科技提供动物模型构建、行为学检测、生物信息学分析及AI智能体服务。' %}{% endblock %}">
+  <meta property="og:url" content="https://sengene.top{{ request.path }}">
+  <meta property="og:image" content="https://sengene.top/static/images/logo100K.jpg">
+  <meta property="og:locale" content="{% if LANGUAGE_CODE == 'zh-hans' %}zh_CN{% else %}en_US{% endif %}">
+  {% endblock %}
+
   <link rel="stylesheet" href="{% static 'css/style.css' %}">
   <style>
     .lang-switch { display: flex; align-items: center; gap: 8px; margin-left: 15px; }
@@ -38,7 +54,7 @@
     <nav class="navbar">
       <div class="logo">
         <img src="{% static 'images/logo100K.jpg' %}" alt="Sengene Logo">
-        <h1>{% trans "三君科技" %} <span>Sengene Technology</span></h1>
+        <span class="logo-text">{% trans "三君科技" %} <span>Sengene Technology</span></span>
       </div>
       <div class="nav-right">
         <ul class="menu">
@@ -51,7 +67,6 @@
           <li><a href="{% url 'contact' %}">{% trans "联系我们" %}</a></li>
         </ul>
         <div class="lang-switch">
-          {% get_current_language as LANGUAGE_CODE %}
           {% if LANGUAGE_CODE == 'zh-hans' %}
             <span class="lang-current">中文</span>
             <span style="color:#ccc;">|</span>
@@ -96,6 +111,32 @@
     </div>
   </section>
   {% endblock %}
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "广州三君科技有限公司",
+    "alternateName": "Sengene Technology",
+    "url": "https://sengene.top",
+    "logo": "https://sengene.top/static/images/logo100K.jpg",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+86-19860077274",
+      "contactType": "sales",
+      "availableLanguage": ["Chinese", "English"]
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Room 407, Building A3, No. 63 Chuangqi Road, Shilou Town, Panyu District",
+      "addressLocality": "广州",
+      "addressRegion": "广东",
+      "addressCountry": "CN"
+    }
+  }
+  </script>
+
+  {% block extra_schema %}{% endblock %}
 
   <footer class="footer">
     <div class="footer-info">

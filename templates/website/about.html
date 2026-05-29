@@ -2,6 +2,11 @@
 {% load static %}
 {% load i18n %}
 
+{% block seo_title %}{% trans "关于三君科技 — 专业动物实验与生信分析团队" %}{% endblock %}
+{% block seo_description %}{% trans "三君科技成立于2022年，核心团队由生物医药博士组成，提供从实验设计到数据分析的一站式科研服务。" %}{% endblock %}
+{% block og_title %}{% trans "关于三君科技" %}{% endblock %}
+{% block og_description %}{% trans "三君科技，专业动物实验与生信分析团队，提供一站式科研技术服务。" %}{% endblock %}
+
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'css/website.css' %}">
 {% endblock %}
