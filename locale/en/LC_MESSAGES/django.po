@@ -435,3 +435,13 @@ msgstr "Contact Us — Sengene Technology"
 
 msgid "联系三君科技，获取动物实验与数据分析服务。"
 msgstr "Contact Sengene for animal experiment and data analysis services."
+
+# ===== BMI Article =====
+msgid "脑机接口导论"
+msgstr "Introduction to Brain-Computer Interfacing"
+
+msgid "由 Rajesh P. N. Rao 撰写、张莉等人翻译的脑机接口领域经典入门教材，涵盖从信号采集、特征提取到解码算法的完整 BMI 技术链条。"
+msgstr "A classic introductory textbook on brain-computer interfaces by Rajesh P. N. Rao, translated by Zhang Li et al. Covers the complete BMI pipeline from signal acquisition and feature extraction to decoding algorithms."
+
+msgid "观看视频"
+msgstr "Watch Video"
