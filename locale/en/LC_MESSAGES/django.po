@@ -236,6 +236,15 @@ msgstr "Own brand AngieGan and co-developed brand ECOTOP. Reagent kits for anima
 msgid "试剂耗材 · 多品牌合作"
 msgstr "Reagents & Consumables · Multi-brand"
 
+msgid "资料下载"
+msgstr "Downloads"
+
+msgid "点击下载产品详细介绍资料（Word 文档）。"
+msgstr "Click to download product detail documents (Word files)."
+
+msgid "微重力实验技术资料"
+msgstr "Microgravity Experimental Technology Reference"
+
 # ===== Communication Page =====
 msgid "科研方法分享 · 动物模型经验 · 生信分析指南"
 msgstr "Research Methods · Animal Model Experience · Bioinformatics Guide"
